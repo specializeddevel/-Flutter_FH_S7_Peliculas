@@ -28,8 +28,8 @@ class CardSwiper extends StatelessWidget {
                 image: NetworkImage(peliculas[index].getPosterImg()),
                 placeholder: AssetImage('assets/img/no-image.jpg'),
                 fit: BoxFit.fill,                
-                ),
-              );
+              ),
+            );
               //Image.network("http://via.placeholder.com/350x150",fit: BoxFit.cover)             
           },
           itemCount: peliculas.length,                    
